@@ -2,7 +2,7 @@
 
 ## Desafios
 
-- [v] Fazer o formulário aparecer, suavemente, quando a página abrir
+- [x] Fazer o formulário aparecer, suavemente, quando a página abrir
 
 - [v] Fazer os campos aparecerem da esquerda para a direita, suvizando a entrada e fazendo-os entrar em momentos distintos
 
