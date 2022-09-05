@@ -4,17 +4,17 @@
 
 - [x] Fazer o formulário aparecer, suavemente, quando a página abrir
 
-- [v] Fazer os campos aparecerem da esquerda para a direita, suvizando a entrada e fazendo-os entrar em momentos distintos
+- [x] Fazer os campos aparecerem da esquerda para a direita, suvizando a entrada e fazendo-os entrar em momentos distintos
 
-- [v] Quando clicar em login, fazer o formulário sair da tela, indo para baixo.
+- [x] Quando clicar em login, fazer o formulário sair da tela, indo para baixo.
 
-- [v] Remover formulário do html e não mostrar rolagem enquanto o formulário está saindo da tela
+- [x] Remover formulário do html e não mostrar rolagem enquanto o formulário está saindo da tela
 
-- [v] Adicionar um efeito diferente de timing para a saída do formulário
+- [x] Adicionar um efeito diferente de timing para a saída do formulário
 
-- [v] Fazer o formulário dizer não-não (vibrar) caso haja campos vazios
+- [x] Fazer o formulário dizer não-não (vibrar) caso haja campos vazios
 
-- [v] Criar alguns quadrados animados (que fiquem girando) e que saem de baixo da tela (foram do campo de visão) e vão para cima da tela (que saia do campo de visão também).
+- [x] Criar alguns quadrados animados (que fiquem girando) e que saem de baixo da tela (foram do campo de visão) e vão para cima da tela (que saia do campo de visão também).
 __Detalhes__: Deve ter tamanhos diferentes, sairem em momentos diferentes, terem timing diferente, animação contínua.
 
 ## Animation
