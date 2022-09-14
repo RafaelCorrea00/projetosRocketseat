@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+:root {
+    --bg: #130f0d;
+    --primary: #fd951f;
+    --primary-opaque: rgba(250, 152, 5, 0.139);
+    --white: #f0f0f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, button, input {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+    color: var(--white);
+}
+
+header {
+    margin-top: 32px;
+    text-align: center;
+    padding-bottom: 4rem;
+    color: var(--primary);
+    animation: up 0.4s;
+}
+
+main {
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 960px;
+    animation: up 0.4s 0.2s backwards;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 3.2rem 0 1.6rem;
+    animation: up 0.4s 0.4s backwards;
+}
+
+footer::after {
+    content: "Feito com ♥️ por Mayk Brito";
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* TagsInput */
+
+.tag-container {
+    border: 2px solid var(--primary-opaque);
+    border-radius: .2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    padding: .4rem;
+    overflow-x: auto;
+}
+
+
+.tag-container, 
+.tag-container input, 
+.tag-container .tag {
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--white);
+}
+
+.tag-container .tag {
+    margin: .4rem;
+    padding: .4rem .6rem;
+    border-bottom: .01rem solid var(--primary);
+
+    font-size: 1.2rem;
+    
+    display: flex;
+    align-items: center;
+    
+    cursor: default;
+}
+
+.tag i {
+    font-size: 0.8rem;
+    font-style: normal;
+
+    margin-left: .4rem;
+
+    transform: translateY(0.08rem);
+}
+
+.close::after {
+    content: "✕";
+    height: 24px;
+    width: 24px;
+}
+
+.tag-container input {
+    padding: .4rem;
+
+    font-size: 1.2rem;
+    border: 0;
+    outline: none;
+    flex: 1;
+}
