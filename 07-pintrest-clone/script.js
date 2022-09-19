@@ -5,11 +5,17 @@ function enterScreen(index) {
     const grid = grids[index]
     const heading = headings[index]
     const gridColumns = grid.querySelectorAll('.column')
+    const gridItems = grid.querySelectorAll(".item")
 
     grid.classList.add('active')
 
     gridColumns.forEach(element => {
         element.classList.remove('animate-before', 'animate-after')
+    })
+
+    gridItems.forEach(element => {
+        const randomImg = `<img src='https://source.unsplash.com/236x350/?${Math.floor(Math.random() * 35 * 5)}'>`
+        element.innerHTML = randomImg        
     })
 
     heading.classList.remove('animate-before', 'animate-after')
@@ -53,6 +59,7 @@ function setupAnimationCycle({ timePerScreen, exitDelay }) {
 
 setupAnimationCycle({
     initialScreenIndex: 0,
-    timePerScreen: 2000, // ms
+    timePerScreen: 5000, // ms
     exitDelay: 200 * 7, // ms
 })
+
