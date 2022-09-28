@@ -1,4 +1,4 @@
-# Mini App para cortar imagem com HTML5 CAnvas e JavaScript
+# Mini App para cortar imagem com HTML5 Canvas e JavaScript
 Com o uso do HTML5Canvas `<canvas>` + JS, nós iremos criar um prqueno app que irá cortar uma imagem.
 
 ## Antes de começar
