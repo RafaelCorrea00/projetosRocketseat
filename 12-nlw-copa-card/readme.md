@@ -2,7 +2,7 @@
 
 Projeto de pré-abertura da semana NLW da Rocketseat
 Inspirado nas figurinhas da copa do mundo
----
+
 Desenvolvido com HTML, CSS, JavaScript
 
 Layout do Figma com base
