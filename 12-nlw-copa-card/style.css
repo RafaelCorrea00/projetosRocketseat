@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(150deg, #0F2B05, #000);
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    padding: 75px 0;
+}
+
+.card {
+    display: inline-block;
+    width: 354px;
+    height: 508px;
+
+    background-image: url('./assets/bg-explorer.svg');
+    cursor: pointer;
+
+    user-select: none;      /* para não selecionar um elemento com click */
+    
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: appear 0.4s forwards;
+}
+
+.card > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #F7DD43;
+    margin-top: 115px;
+    
+    pointer-events: none;   /* para não selecionar a img com click */
+    user-select: none;      /* para não selecionar a img com click */
+}
+
+.info {
+    margin-top: 100px;
+    margin-left: 70px;
+    text-align: left;
+    color: #FFF;
+}
+
+.info > h1 {
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.info > p {
+    font-size: 14px;
+    line-height: 160%;
+}
+
+@keyframes appear {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
