@@ -1,0 +1,19 @@
+Aula 01 - Construido bases
+	check-point 01.
+		#playstation
+
+Aula 02 - Explorando o CSS
+	check-point 02.
+		#comprometimento
+
+Aula 03 - Introdução ao JavaScript
+	check-point 03
+		#aceleracao
+
+Aula 04 - Personalizando o projeto
+	check-point 04
+		#comunidade
+
+Aula 05 - Colocando o projeto
+	check-point
+		#proximonivel
